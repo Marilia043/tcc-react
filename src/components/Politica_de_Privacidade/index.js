@@ -1,37 +1,81 @@
 import React from 'react';
 import './index.scss';
+import { Link } from 'react-router-dom';
+
 
 function PrivacyPolicy() {
   return (
-    <div className="privacy-policy">
-      <h1>Privacy Policy</h1>
-      <p>
-        At NaturalMente, we value the privacy of our visitors and users. This Privacy Policy outlines the types of personal information we collect and how we use and protect that information.
-      </p>
-      <h2>Data Collection</h2>
-      <p>
-        We may collect certain personal information, such as your name, email address, and other contact details when you interact with our website or use our services.
-      </p>
-      <h2>Data Usage</h2>
-      <p>
-        The personal information we collect is used to provide and improve our services, personalize your experience, and communicate with you. We may also use the information to send you promotional emails or newsletters, but you can opt-out of such communications at any time.
-      </p>
-      <h2>Data Protection</h2>
-      <p>
-        We take appropriate measures to protect the personal information we collect and store. However, please note that no method of data transmission or storage is 100% secure, and we cannot guarantee the absolute security of your information.
-      </p>
-      <h2>Third-Party Links</h2>
-      <p>
-        Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of these third-party sites. We encourage you to read the privacy policies of those websites when you visit them.
-      </p>
-      <h2>Changes to This Policy</h2>
-      <p>
-        We may update this Privacy Policy from time to time. Any changes will be reflected on this page, and the revised policy will take effect immediately.
-      </p>
-      <h2>Contact Us</h2>
-      <p>
-        If you have any questions or concerns about this Privacy Policy, please contact us at privacy@naturalmente.com.
-      </p>
+    <div className="div-principal">
+      
+
+    <Link to='/PrivacyPolicy'><h3>←</h3></Link>
+
+    <div classname='div-centralizada'>
+    <h1>Politica de Privacidade</h1>
+<p>
+A sua privacidade é importante para nós. É política do 
+NaturalMente respeitar a sua privacidade em relação a
+ qualquer
+ informação sua que possamos coletar no site NaturalMente, e
+ outros sites que possuímos e operamos.
+Solicitamos informações pessoais apenas quando realmente
+ precisamos delas para lhe fornecer um serviço.  Fazemo-lo por meios justos e legais, com o seu
+ conhecimento
+ e consentimento. Também informamos por que estamos 
+coletando
+ e como será usado.+
+Apenas retemos as informações coletadas pelo tempo
+ necessário para fornecer o serviço solicitado. Quando 
+armazenamos dados,
+ protegemos dentro de meios comercialmente aceitáveis
+ ​​para evitar perdas e roubos, bem como acesso, divulgação,
+ cópia, uso ou 
+modificação não autorizados.
+Não compartilhamos informações de identificação pessoal
+ publicamente ou com terceiros, exceto quando exigido por
+ lei.
+O nosso site pode ter links para sites externos que não são
+ operados por nós. Esteja ciente de que não temos controle 
+sobre o conteúdo
+ e práticas desses sites e não podemos aceitar 
+responsabilidade por suas respectivas políticas de privacidade.
+Você é livre para recusar a nossa solicitação de informações
+ pessoais, entendendo que talvez não possamos fornecer 
+alguns dos serviço
+s desejados.
+O uso continuado de nosso site será considerado como
+ aceitação de nossas práticas em torno de privacidade e
+ informações pessoais.
+ Se você tiver alguma dúvida sobre como lidamos com dados
+ do usuário e informações pessoais, entre em contacto
+ connosco.
+</p>
+<h2>Dados de Coleta</h2>
+<p>
+Podemos coletar certas informações pessoais, como seu nome, endereço de e-mail e outros dados de contato quando você interage com nosso site ou usa nossos serviços.
+</p>
+<h2>Uso de dados</h2>
+<p>
+As informações pessoais que coletamos são usadas para fornecer e melhorar nossos serviços, personalizar sua experiência e nos comunicarmos com você. Também poderemos usar as informações para lhe enviar e-mails promocionais ou boletins informativos, mas você poderá cancelar o recebimento de tais comunicações a qualquer momento.
+</p>
+<h2>Proteção de dados</h2>
+<p>
+Tomamos medidas apropriadas para proteger as informações pessoais que coletamos e armazenamos. No entanto, tenha em atenção que nenhum método de transmissão ou armazenamento de dados é 100% seguro e não podemos garantir a segurança absoluta das suas informações.
+</p>
+<h2>Links de terceiros</h2>
+<p>
+Nosso site pode conter links para sites de terceiros. Não somos responsáveis ​​pelas práticas de privacidade ou pelo conteúdo desses sites de terceiros. Encorajamo-lo a ler as políticas de privacidade desses websites quando os visitar.
+</p>
+<h2>Mudanças nesta política</h2>
+<p>
+Poderemos atualizar esta Política de Privacidade de tempos em tempos. Quaisquer alterações serão refletidas nesta página e a política revisada entrará em vigor imediatamente.
+</p>
+<h2>Contate-nos</h2>
+<p>
+Se você tiver alguma dúvida ou preocupação sobre esta Política de Privacidade, entre em contato conosco pelo e-mail privacidade@naturalmente.com.
+</p>
+
+      </div>
     </div>
   );
 }

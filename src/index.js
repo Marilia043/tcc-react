@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.scss';
+
+import Home from './pages/landingPage';
 
 import 'react-router-dom';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import HomePage from './pages/home';
+// import HomePage from './pages/home';
 import PrivacyPolicy from './components/Politica_de_Privacidade';
 import footer from './components/rodapé';
 
@@ -15,7 +17,8 @@ root.render(
   <React.StrictMode>
      <BrowserRouter>
            <Routes>
-               <Route path='/'  exact={true} element={<HomePage/>}/>
+              <Route path='/' element={<Home/> }/>
+               {/* <Route path='/'  exact={true} element={<HomePage/>}/> */}
                <Route path='/PrivacyPolicy' element={<PrivacyPolicy/>} />
                <Route path='/footer' element={<footer/>} />
            </Routes>
